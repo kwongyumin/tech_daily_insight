@@ -16,6 +16,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,5 +40,4 @@ jobs:
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add posts/ .topic-history.json
           git commit -m "feat: Add daily post - $(date +%Y-%m-%d)"
-          git pull --rebase origin main
           git push
