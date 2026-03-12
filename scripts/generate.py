@@ -207,6 +207,12 @@ def generate_post(topic: str, category: str) -> str:
 
 
 def main() -> None:
+    today = date.today().isoformat()
+    existing = list(POSTS_DIR.glob(f"{today}-*.md")) if POSTS_DIR.exists() else []
+    if existing:
+        print(f"[스킵] 오늘 포스팅이 이미 존재합니다: {existing[0]}")
+        return
+
     category, topic = pick_topic()
     print(f"[카테고리] {category}")
     print(f"[주제] {topic}")

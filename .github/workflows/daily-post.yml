@@ -40,6 +40,10 @@ jobs:
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add posts/ .topic-history.json
+          if git diff --cached --quiet; then
+            echo "변경사항 없음 (오늘 포스팅 이미 존재) - 스킵"
+            exit 0
+          fi
           git commit -m "feat: Add daily post - $(date +%Y-%m-%d)"
           for i in 1 2 3; do
             git pull --rebase origin main && git push && break
