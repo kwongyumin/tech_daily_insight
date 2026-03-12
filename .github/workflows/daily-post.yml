@@ -2,7 +2,7 @@ name: Daily Tech Post
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 KST 09:00 (UTC 00:00)
+    - cron: '30 0 * * *'  # 매일 KST 09:30 (UTC 00:30)
   workflow_dispatch:       # 수동 실행 가능
 
 concurrency:
