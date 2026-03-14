@@ -26,21 +26,9 @@
     },
     {
       "date": "2026-03-14",
-      "title": "DAO(탈중앙화 자율 조직) 거버넌스 설계 원리",
-      "slug": "dao탈중앙화-자율-조직-거버넌스-설계-원리",
+      "title": "NFT 기술 원리와 ERC-721 스마트 컨트랙트 구현",
+      "slug": "nft-기술-원리와-erc-721-스마트-컨트랙트-구현",
       "category": "블록체인"
-    },
-    {
-      "date": "2026-03-15",
-      "title": "네트워크 패킷 분석 Wireshark 실전 활용법",
-      "slug": "네트워크-패킷-분석-wireshark-실전-활용법",
-      "category": "네트워크"
-    },
-    {
-      "date": "2026-03-16",
-      "title": "Apache Cassandra 분산 NoSQL 데이터 모델링",
-      "slug": "apache-cassandra-분산-nosql-데이터-모델링",
-      "category": "데이터베이스"
     }
   ]
 }
