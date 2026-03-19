@@ -41,6 +41,12 @@
       "title": "Helm Chart로 Kubernetes 애플리케이션 패키징",
       "slug": "helm-chart로-kubernetes-애플리케이션-패키징",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "AI 시대 개발자의 역할 변화와 생산성 향상 전략",
+      "slug": "ai-시대-개발자의-역할-변화와-생산성-향상-전략",
+      "category": "최신 IT 기술 동향"
     }
   ]
 }
