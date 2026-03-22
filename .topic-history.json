@@ -59,6 +59,12 @@
       "title": "GraalVM Native Image로 Spring Boot 앱 경량화하기",
       "slug": "graalvm-native-image로-spring-boot-앱-경량화하기",
       "category": "Java/Spring"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Web3.0과 탈중앙화 애플리케이션(dApp) 아키텍처",
+      "slug": "web30과-탈중앙화-애플리케이션dapp-아키텍처",
+      "category": "블록체인"
     }
   ]
 }
