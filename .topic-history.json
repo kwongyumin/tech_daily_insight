@@ -83,6 +83,12 @@
       "title": "DNS 동작 원리와 서비스 배포 시 고려사항",
       "slug": "dns-동작-원리와-서비스-배포-시-고려사항",
       "category": "네트워크"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "JPA N+1 문제 해결 완전 정복",
+      "slug": "jpa-n1-문제-해결-완전-정복",
+      "category": "Java/Spring"
     }
   ]
 }
