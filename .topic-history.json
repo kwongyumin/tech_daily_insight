@@ -95,6 +95,12 @@
       "title": "DAO(탈중앙화 자율 조직) 거버넌스 설계 원리",
       "slug": "dao탈중앙화-자율-조직-거버넌스-설계-원리",
       "category": "블록체인"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "gRPC와 Protocol Buffers 서버 간 통신 설계",
+      "slug": "grpc와-protocol-buffers-서버-간-통신-설계",
+      "category": "서버/인프라"
     }
   ]
 }
