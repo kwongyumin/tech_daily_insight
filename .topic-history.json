@@ -101,6 +101,12 @@
       "title": "gRPC와 Protocol Buffers 서버 간 통신 설계",
       "slug": "grpc와-protocol-buffers-서버-간-통신-설계",
       "category": "서버/인프라"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "데이터베이스 레플리케이션과 읽기 분산 전략",
+      "slug": "데이터베이스-레플리케이션과-읽기-분산-전략",
+      "category": "데이터베이스"
     }
   ]
 }
